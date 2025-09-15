@@ -1,0 +1,14 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Local dev files
+*.env
+*.log
+
+# Docker stuff
+db-data/
+docker-rust-kubernetes.yaml
+
+# Git
+.DS_Store
